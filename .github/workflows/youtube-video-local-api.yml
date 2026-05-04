@@ -44,6 +44,8 @@ jobs:
   youtube_video_send:
     name: Download YouTube video and send as video
     runs-on: ubuntu-latest
+    contents: read
+    packages: read
     timeout-minutes: 180
 
     container:
