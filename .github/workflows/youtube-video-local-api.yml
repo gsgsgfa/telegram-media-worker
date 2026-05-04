@@ -47,7 +47,7 @@ jobs:
     timeout-minutes: 180
 
     container:
-      image: ghcr.io/amd4x/tg-video-worker:latest
+      image: ghcr.io/gsgsgfa/tg-video-worker:latest
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
